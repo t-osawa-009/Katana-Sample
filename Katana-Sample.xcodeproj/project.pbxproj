@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1788D0FD201F6E4C004B2CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D0FC201F6E4C004B2CEA /* AppDelegate.swift */; };
-		1788D0FF201F6E4C004B2CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D0FE201F6E4C004B2CEA /* ViewController.swift */; };
-		1788D102201F6E4C004B2CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1788D100201F6E4C004B2CEA /* Main.storyboard */; };
 		1788D104201F6E4C004B2CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1788D103201F6E4C004B2CEA /* Assets.xcassets */; };
 		1788D107201F6E4C004B2CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1788D105201F6E4C004B2CEA /* LaunchScreen.storyboard */; };
+		1788D10F201FD78E004B2CEA /* CounterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D10E201FD78E004B2CEA /* CounterScreen.swift */; };
+		1788D111201FD853004B2CEA /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D110201FD853004B2CEA /* CounterState.swift */; };
+		1788D113201FD871004B2CEA /* DecrementCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D112201FD871004B2CEA /* DecrementCounter.swift */; };
+		1788D115201FD8A7004B2CEA /* IncrementCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D114201FD8A7004B2CEA /* IncrementCounter.swift */; };
+		E70506956F5F1CD02DFF22E4 /* Pods_Katana_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9375ABB493E19C030CF5943E /* Pods_Katana_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1788D0F9201F6E4C004B2CEA /* Katana-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Katana-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1788D0FC201F6E4C004B2CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1788D0FE201F6E4C004B2CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1788D101201F6E4C004B2CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1788D103201F6E4C004B2CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1788D106201F6E4C004B2CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1788D108201F6E4C004B2CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1788D10E201FD78E004B2CEA /* CounterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterScreen.swift; sourceTree = "<group>"; };
+		1788D110201FD853004B2CEA /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
+		1788D112201FD871004B2CEA /* DecrementCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecrementCounter.swift; sourceTree = "<group>"; };
+		1788D114201FD8A7004B2CEA /* IncrementCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementCounter.swift; sourceTree = "<group>"; };
+		8134A3680B1A95280FCEA62D /* Pods-Katana-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Katana-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Katana-Sample/Pods-Katana-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		86B65D1562B373AF7F70AE8F /* Pods-Katana-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Katana-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Katana-Sample/Pods-Katana-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		9375ABB493E19C030CF5943E /* Pods_Katana_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Katana_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70506956F5F1CD02DFF22E4 /* Pods_Katana_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				1788D0FB201F6E4C004B2CEA /* Katana-Sample */,
 				1788D0FA201F6E4C004B2CEA /* Products */,
+				2ADA0AA4E5041687095C98D0 /* Pods */,
+				DFB3E9B9EBCB30AD30C72BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,65 @@
 		1788D0FB201F6E4C004B2CEA /* Katana-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				1788D0FC201F6E4C004B2CEA /* AppDelegate.swift */,
-				1788D0FE201F6E4C004B2CEA /* ViewController.swift */,
-				1788D100201F6E4C004B2CEA /* Main.storyboard */,
-				1788D103201F6E4C004B2CEA /* Assets.xcassets */,
-				1788D105201F6E4C004B2CEA /* LaunchScreen.storyboard */,
+				1788D119201FDE93004B2CEA /* State */,
+				1788D118201FDE73004B2CEA /* Action */,
+				1788D117201FDE51004B2CEA /* Assets */,
+				1788D116201FDE3E004B2CEA /* Application */,
+				1788D10E201FD78E004B2CEA /* CounterScreen.swift */,
 				1788D108201F6E4C004B2CEA /* Info.plist */,
 			);
 			path = "Katana-Sample";
+			sourceTree = "<group>";
+		};
+		1788D116201FDE3E004B2CEA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1788D105201F6E4C004B2CEA /* LaunchScreen.storyboard */,
+				1788D0FC201F6E4C004B2CEA /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1788D117201FDE51004B2CEA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1788D103201F6E4C004B2CEA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1788D118201FDE73004B2CEA /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				1788D112201FD871004B2CEA /* DecrementCounter.swift */,
+				1788D114201FD8A7004B2CEA /* IncrementCounter.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		1788D119201FDE93004B2CEA /* State */ = {
+			isa = PBXGroup;
+			children = (
+				1788D110201FD853004B2CEA /* CounterState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		2ADA0AA4E5041687095C98D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B65D1562B373AF7F70AE8F /* Pods-Katana-Sample.debug.xcconfig */,
+				8134A3680B1A95280FCEA62D /* Pods-Katana-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFB3E9B9EBCB30AD30C72BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9375ABB493E19C030CF5943E /* Pods_Katana_Sample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1788D10B201F6E4C004B2CEA /* Build configuration list for PBXNativeTarget "Katana-Sample" */;
 			buildPhases = (
+				91134BF7886CB9273335A72A /* [CP] Check Pods Manifest.lock */,
 				1788D0F5201F6E4C004B2CEA /* Sources */,
 				1788D0F6201F6E4C004B2CEA /* Frameworks */,
 				1788D0F7201F6E4C004B2CEA /* Resources */,
+				A3178F1282A6F6326B692F18 /* [CP] Embed Pods Frameworks */,
+				91F74CECF280E0EA5787E88D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +161,7 @@
 				TargetAttributes = {
 					1788D0F8201F6E4C004B2CEA = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -125,33 +190,87 @@
 			files = (
 				1788D107201F6E4C004B2CEA /* LaunchScreen.storyboard in Resources */,
 				1788D104201F6E4C004B2CEA /* Assets.xcassets in Resources */,
-				1788D102201F6E4C004B2CEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91134BF7886CB9273335A72A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Katana-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F74CECF280E0EA5787E88D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Katana-Sample/Pods-Katana-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3178F1282A6F6326B692F18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Katana-Sample/Pods-Katana-Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Katana/Katana.framework",
+				"${BUILT_PRODUCTS_DIR}/KatanaElements/KatanaElements.framework",
+				"${BUILT_PRODUCTS_DIR}/KatanaMonitor/KatanaMonitor.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Katana.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KatanaElements.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KatanaMonitor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Katana-Sample/Pods-Katana-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1788D0F5201F6E4C004B2CEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1788D0FF201F6E4C004B2CEA /* ViewController.swift in Sources */,
+				1788D113201FD871004B2CEA /* DecrementCounter.swift in Sources */,
+				1788D115201FD8A7004B2CEA /* IncrementCounter.swift in Sources */,
 				1788D0FD201F6E4C004B2CEA /* AppDelegate.swift in Sources */,
+				1788D111201FD853004B2CEA /* CounterState.swift in Sources */,
+				1788D10F201FD78E004B2CEA /* CounterScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1788D100201F6E4C004B2CEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1788D101201F6E4C004B2CEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1788D105201F6E4C004B2CEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +391,37 @@
 		};
 		1788D10C201F6E4C004B2CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B65D1562B373AF7F70AE8F /* Pods-Katana-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P4GR5U4Y4Q;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Katana-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "apps.Katana-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1788D10D201F6E4C004B2CEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8134A3680B1A95280FCEA62D /* Pods-Katana-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P4GR5U4Y4Q;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Katana-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "apps.Katana-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

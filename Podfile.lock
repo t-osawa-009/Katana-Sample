@@ -1,0 +1,23 @@
+PODS:
+  - Katana (0.8.12)
+  - KatanaElements (0.8.4):
+    - Katana (~> 0.8.4)
+  - KatanaMonitor (0.0.1):
+    - Katana (< 0.9, >= 0.7)
+    - SocketRocket (~> 0.5)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - Katana
+  - KatanaElements
+  - KatanaMonitor
+
+SPEC CHECKSUMS:
+  Katana: 0073a3a2b0b6a0b2d01766008f1608c5a2a7a67b
+  KatanaElements: fee20f8873f556afd91a8328b3692d4a37cfe398
+  KatanaMonitor: e6b4dfb47356dc7ea32ef05be6cd35a720e7ff79
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: cce45240f5f1bf4d5a0ab47f329eb6700132f62b
+
+COCOAPODS: 1.4.0
