@@ -5,7 +5,7 @@ target 'Katana-Sample' do
     use_frameworks!
     pod 'Katana'
     pod 'KatanaElements'
-    pod 'KatanaMonitor'
+    pod 'KatanaMonitor', :configurations => ['Debug']
 end
 
 post_install do |installer|

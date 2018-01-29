@@ -25,8 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var middleware: [StoreMiddleware] = [
             // other middleware
         ]
-        
+        #if DEBUG
         middleware.append(MonitorMiddleware.create(using: .defaultConfiguration))
+        #endif
+        
         let store = Store<CounterState>.init(middleware: middleware, dependencies: EmptySideEffectDependencyContainer.self)
         let counterScreen = CounterScreen(props: CounterScreen.Props.build({ (counterScreenProps) in
             counterScreenProps.frame = rootBounds
